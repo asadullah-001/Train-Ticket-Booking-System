@@ -1,3 +1,5 @@
+// ===== OLI PART START =====
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -30,7 +32,7 @@ int main() {
     printf("************************************\n");
     printf("      TRAIN RESERVATION SYSTEM\n");
     printf("************************************\n");
-    printf("    Made by: ByteCrew ( Oli, Yamin, Zoheb)\n");
+    printf("    Made by: ByteCrew (Oli, Yamin, Zoheb)\n");
     printf("************************************\n\n");
     
     loadData();
@@ -123,6 +125,11 @@ void bookTicket() {
     total++;
 }
 
+// ===== OLI PART END =====
+
+
+// ===== YAMIN PART START =====
+
 void showTickets() {
     int i;
     
@@ -179,6 +186,11 @@ void findTicket() {
         printf("PNR %d not found!\n", searchPnr);
     }
 }
+
+// ===== YAMIN PART END =====
+
+
+// ===== ZOHEB PART START =====
 
 void deleteTicket() {
     int cancelPnr;
@@ -253,3 +265,5 @@ void loadData() {
     fclose(f);
     printf("Loaded old data!\n");
 }
+
+// ========= ZOHEB PART END =================
