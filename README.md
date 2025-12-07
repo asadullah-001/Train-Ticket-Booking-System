@@ -30,7 +30,7 @@ int main() {
     printf("************************************\n");
     printf("      TRAIN RESERVATION SYSTEM\n");
     printf("************************************\n");
-    printf("    Made by: Oli, Yamin, Zoheb\n");
+    printf("    Made by: ByteCrew ( Oli, Yamin, Zoheb)\n");
     printf("************************************\n\n");
     
     loadData();
