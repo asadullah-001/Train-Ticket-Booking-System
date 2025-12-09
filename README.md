@@ -1,45 +1,45 @@
-Train Ticket Booking System
+# Train Ticket Booking System
 
-A simple C language console-based project for CSE115L that allows users to book, view, search, cancel, and save train tickets.
-Built by ByteCrew (Oli, Yamin, Zoheb).
+A simple **C language console-based project** for **CSE115L** that allows users to book, view, search, cancel, and save train tickets.
+Built by **ByteCrew** (Oli, Yamin, Zoheb).
 
 ---
 
-📌 Features
+## 📌 Features
 
-* Book New Ticket:
+* **Book New Ticket**
   Enter passenger details, train info, travel date, and automatically get assigned a **PNR** and **seat number**.
 
-* See All Tickets:
+* **See All Tickets**
   Displays all booked tickets in a clean list.
 
-* Find Ticket by PNR:
+* **Find Ticket by PNR**
   Searches and displays a ticket using the unique PNR number.
 
-* Cancel Ticket:
+* **Cancel Ticket**
   Deletes any ticket using PNR and shifts remaining tickets properly.
 
-* Save Data to File:
+* **Save Data to File**
   Saves all tickets into **tickets_data.bin** using binary file handling.
 
-* Load Saved Data Automatically:
+* **Load Saved Data Automatically**
   Loads previous data when the program starts.
 
 ---
 
-🛠️ Project Structure
+## 🛠️ Project Structure
 
 The code is divided among team members:
 
 | Member    | Contribution                                                            |
 | --------- | ----------------------------------------------------------------------- |
-| Oli       | Main menu, booking system, struct definitions, initialization functions |
-| Yamin     | View all tickets, find ticket functionality                             |
-| Zoheb     | Cancel ticket, save & load file handling                                |
+| **Oli**   | Main menu, booking system, struct definitions, initialization functions |
+| **Yamin** | View all tickets, find ticket functionality                             |
+| **Zoheb** | Cancel ticket, save & load file handling                                |
 
 ---
 
-⚙️ How It Works
+## ⚙️ How It Works
 
 When the program starts:
 
@@ -50,7 +50,7 @@ When the program starts:
 
 ---
 
-📂 File Used
+## 📂 File Used
 
 The system uses one file for persistence:
 
@@ -66,9 +66,9 @@ This file stores:
 
 ---
 
-📸 Sample Output
+## 📸 Sample Output
 
-Main Menu
+### Main Menu
 
 ```
 ------------ MENU -------------
@@ -81,7 +81,7 @@ Main Menu
 -------------------------------
 ```
 
-Ticket Booking Example
+### Ticket Booking Example
 
 ```
 --- BOOK TICKET ---
@@ -96,7 +96,7 @@ Your PNR: 1000
 Your seat: 1
 ```
 
-Save Confirmation
+### Save Confirmation
 
 ```
 Saved!
@@ -104,7 +104,7 @@ Saved!
 
 ---
 
-🧠 Technologies Used
+## 🧠 Technologies Used
 
 * C Programming
 * File Handling (Binary I/O)
@@ -114,7 +114,7 @@ Saved!
 
 ---
 
-🚀 How to Run
+## 🚀 How to Run
 
 1. Compile using GCC:
 
@@ -132,9 +132,10 @@ Saved!
 
 ---
 
-👥 Team ByteCrew
+## 👥 Team ByteCrew
 
-* Oli
-* Yamin
-* Zoheb
+* **Oli**
+* **Yamin**
+* **Zoheb**
 
+---
